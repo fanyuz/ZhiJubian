@@ -1,0 +1,228 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt,
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+musicbox,
+conctrl,
+left,
+right,
+top,
+bottom {
+  display: block;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: inline-block;
+}
+.banner {
+  width: 100%;
+  height: 450px;
+  background: url(../img/news/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.news_center {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.news_center .indexing {
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px solid #F2F2F2;
+  padding-top: 18px;
+}
+.news_center .indexing img {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+.news_center .indexing p {
+  height: 16px;
+  font-size: 16px;
+  color: #ABABAB;
+}
+.news_center #table {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  margin: 15px auto;
+}
+.news_center #table > li {
+  width: 90px;
+  height: 32px;
+  border: 1px solid #E7E7E7;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  color: #656565;
+  float: left;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.news_center #table > li:hover {
+  background: #387BEA;
+  color: #fff;
+}
+.news_center #table .alid {
+  background: #387BEA;
+  color: #fff;
+}
+.news_center .carousel {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.news_center .carousel .show {
+  display: block;
+}
+.news_center .carousel > div {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+.news_center .carousel > div > ul {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.news_center .carousel > div > ul .activity {
+  width: 280px;
+  height: 330px;
+  background: #F7F8FB;
+  padding: 15px;
+  display: block;
+}
+.news_center .carousel > div > ul .activity:hover {
+  background: #387BEA;
+}
+.news_center .carousel > div > ul .activity:hover > .activity_text h4,
+.news_center .carousel > div > ul .activity:hover > .activity_text p {
+  color: #FFFFFF !important;
+}
+.news_center .carousel > div > ul .activity:hover > .activity_text h4 a,
+.news_center .carousel > div > ul .activity:hover > .activity_text p a {
+  color: #FFFFFF !important;
+}
+.news_center .carousel > div > ul .activity .activity_img {
+  width: 100%;
+  height: 180px;
+  background-size: 100% 100%;
+  display: block;
+}
+.news_center .carousel > div > ul .activity .activity_img_one {
+  background: url(../img/index/media01.jpg) no-repeat;
+}
+.news_center .carousel > div > ul .activity .activity_img_two {
+  background: url(../img/index/media02.jpg) no-repeat;
+}
+.news_center .carousel > div > ul .activity .activity_img_three {
+  background: url(../img/index/media03.jpg) no-repeat;
+}
+.news_center .carousel > div > ul .activity .activity_img_four {
+  background: url(../img/index/media04.jpg) no-repeat;
+}
+.news_center .carousel > div > ul .activity .activity_text {
+  width: 100%;
+  height: 86px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.news_center .carousel > div > ul .activity .activity_text h4 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #303030;
+}
+.news_center .carousel > div > ul .activity .activity_text p:nth-child(2) {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7E7E7F;
+}
+.news_center .carousel > div > ul .activity .activity_text p:nth-child(3) {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #7E7E7F;
+}
+.news_center .carousel > div > ul .activity .activity_text p:nth-child(3) span {
+  float: left;
+}
+.news_center .carousel > div > ul .activity .activity_text p:nth-child(3) a {
+  float: right;
+  color: #7E7E7F;
+}
+.news_center .paging {
+  width: 316px;
+  height: 34px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  display: flex;
+}
+.news_center .paging a {
+  flex: 1;
+  height: 34px;
+  border-right: 1px solid #E5E5E5;
+  text-align: center;
+  line-height: 34px;
+  color: #909090;
+}
+.news_center .paging a:nth-child(4) {
+  border: none;
+}
+.news_center .paging a:hover {
+  background: #387BEA;
+  color: #fff;
+}
+/*# sourceMappingURL=NewsCenter.css.map */

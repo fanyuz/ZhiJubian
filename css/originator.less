@@ -1,0 +1,159 @@
+@import reset;
+
+.banner{
+    width: 100%;
+    height: 450px;
+    background: url(../img/originator/banner.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    .indexing{
+        width: 100%;
+        height: 54px;
+        border-bottom: 1px solid #F2F2F2;
+        padding-top: 18px;
+        img{
+            vertical-align: middle;
+            width: 15px;
+            height: 15px;
+            margin-right: 8px;
+        }
+        p{
+            height: 16px;
+            font-size: 16px;
+            color: #ABABAB;
+            
+            
+        }
+    }
+    .member{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        >ul:nth-child(1){
+            width: 300px;
+            height: auto;
+            overflow: hidden;
+            margin: 15px auto;
+            >li{
+                width: 90px;
+                height: 32px;
+                border: 1px solid #E7E7E7;
+                text-align: center;
+                line-height: 32px;
+                font-size: 16px;
+                color: #656565;
+                float: left;
+                margin: 0 3px;
+                cursor: pointer;
+                &:hover{
+                    background: #387BEA;
+                    color: #fff;
+                }
+               
+            }
+            .alid{
+                    background: #387BEA;
+                    color: #fff;
+                }
+        }
+        .member_carousel{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            .show{
+                display: block;
+            }
+            >div{
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                display: none;
+                .memberList{
+                width: 100%;
+                height: auto;
+                margin: 30px 0;
+                display: flex;
+                justify-content: space-around;
+                .menList{
+                    width: 220px;
+                    height: 380px;
+                    border-bottom: 10px solid #D5D5D5;
+                    background: #fff;
+                    cursor: pointer;
+                    &:hover{
+                         border-bottom: 10px solid #387BEA;
+                    }
+                    .name{
+                        width: 84%;
+                        height: 56px;
+                        line-height: 56px;
+                        text-align: center;
+                        margin: 0 auto;
+                        border-bottom: 1px solid #F8F8F8;
+                        font-size: 18px;
+                        color: #656565;
+                    }
+                    ul{
+                        width: 72%;
+                        height: auto;
+                        margin: 18px auto 0;
+                        li{
+                            font-size: 14px;
+                            line-height: 24px;
+                            color:#656565;
+                            
+                        }
+                    }
+                    .head{
+                        width: 100%;
+                        height: 200px;
+                        background-size:100% 100%;
+                        
+                    }
+                    .head_one{
+                        background: url(../img/index/member01.jpg) no-repeat;
+                    }
+                    .head_two{
+                        background: url(../img/index/member02.jpg) no-repeat;
+                    }
+                    .head_three{
+                        background: url(../img/index/member03.jpg) no-repeat;
+                    }
+                    
+                }
+                    
+            }
+        }
+        
+        .paging{
+                width: 316px;
+                height: 34px;
+                border: 1px solid #E5E5E5;
+                border-radius: 4px;
+                margin: 0 auto 20px;
+                display: flex;
+                a{
+                    flex: 1;
+                    height: 34px;
+                    border-right: 1px solid #E5E5E5;
+                    text-align: center;
+                    line-height: 34px;
+                    color: #909090;
+                    &:nth-child(4){
+                        border: none;
+                    }
+                    &:hover{
+                        background: #387BEA;
+                        color:#fff;
+                    }
+                  
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,212 @@
+html,
+body,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+i,
+a,
+em,
+input,
+form,
+img,
+ul,
+li,
+dl,
+dt,
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+section,
+article,
+nav,
+menu,
+aside,
+header,
+footer,
+musicbox,
+conctrl,
+left,
+right,
+top,
+bottom {
+  display: block;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: inline-block;
+}
+.banner {
+  width: 100%;
+  height: 450px;
+  background: url(../img/originator/banner.jpg) no-repeat;
+  background-size: 100% 100%;
+}
+.content {
+  width: 1200px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.content .indexing {
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px solid #F2F2F2;
+  padding-top: 18px;
+}
+.content .indexing img {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+.content .indexing p {
+  height: 16px;
+  font-size: 16px;
+  color: #ABABAB;
+}
+.content .member {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.content .member > ul:nth-child(1) {
+  width: 300px;
+  height: auto;
+  overflow: hidden;
+  margin: 15px auto;
+}
+.content .member > ul:nth-child(1) > li {
+  width: 90px;
+  height: 32px;
+  border: 1px solid #E7E7E7;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  color: #656565;
+  float: left;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.content .member > ul:nth-child(1) > li:hover {
+  background: #387BEA;
+  color: #fff;
+}
+.content .member > ul:nth-child(1) .alid {
+  background: #387BEA;
+  color: #fff;
+}
+.content .member .member_carousel {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.content .member .member_carousel .show {
+  display: block;
+}
+.content .member .member_carousel > div {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+.content .member .member_carousel > div .memberList {
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.content .member .member_carousel > div .memberList .menList {
+  width: 220px;
+  height: 380px;
+  border-bottom: 10px solid #D5D5D5;
+  background: #fff;
+  cursor: pointer;
+}
+.content .member .member_carousel > div .memberList .menList:hover {
+  border-bottom: 10px solid #387BEA;
+}
+.content .member .member_carousel > div .memberList .menList .name {
+  width: 84%;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #F8F8F8;
+  font-size: 18px;
+  color: #656565;
+}
+.content .member .member_carousel > div .memberList .menList ul {
+  width: 72%;
+  height: auto;
+  margin: 18px auto 0;
+}
+.content .member .member_carousel > div .memberList .menList ul li {
+  font-size: 14px;
+  line-height: 24px;
+  color: #656565;
+}
+.content .member .member_carousel > div .memberList .menList .head {
+  width: 100%;
+  height: 200px;
+  background-size: 100% 100%;
+}
+.content .member .member_carousel > div .memberList .menList .head_one {
+  background: url(../img/index/member01.jpg) no-repeat;
+}
+.content .member .member_carousel > div .memberList .menList .head_two {
+  background: url(../img/index/member02.jpg) no-repeat;
+}
+.content .member .member_carousel > div .memberList .menList .head_three {
+  background: url(../img/index/member03.jpg) no-repeat;
+}
+.content .member .member_carousel .paging {
+  width: 316px;
+  height: 34px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  margin: 0 auto 20px;
+  display: flex;
+}
+.content .member .member_carousel .paging a {
+  flex: 1;
+  height: 34px;
+  border-right: 1px solid #E5E5E5;
+  text-align: center;
+  line-height: 34px;
+  color: #909090;
+}
+.content .member .member_carousel .paging a:nth-child(4) {
+  border: none;
+}
+.content .member .member_carousel .paging a:hover {
+  background: #387BEA;
+  color: #fff;
+}
+/*# sourceMappingURL=originator.css.map */
