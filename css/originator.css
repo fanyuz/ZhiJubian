@@ -67,41 +67,41 @@ img {
   background: url(../img/originator/banner.jpg) no-repeat;
   background-size: 100% 100%;
 }
-.content {
+.content_gs {
   width: 1200px;
   height: auto;
   overflow: hidden;
   margin: 0 auto;
 }
-.content .indexing {
+.content_gs .indexing {
   width: 100%;
   height: 54px;
   border-bottom: 1px solid #F2F2F2;
   padding-top: 18px;
 }
-.content .indexing img {
+.content_gs .indexing img {
   vertical-align: middle;
   width: 15px;
   height: 15px;
   margin-right: 8px;
 }
-.content .indexing p {
+.content_gs .indexing p {
   height: 16px;
   font-size: 16px;
   color: #ABABAB;
 }
-.content .member {
+.content_gs .member {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-.content .member > ul:nth-child(1) {
+.content_gs .member > ul:nth-child(1) {
   width: 300px;
   height: auto;
   overflow: hidden;
   margin: 15px auto;
 }
-.content .member > ul:nth-child(1) > li {
+.content_gs .member > ul:nth-child(1) > li {
   width: 90px;
   height: 32px;
   border: 1px solid #E7E7E7;
@@ -113,46 +113,65 @@ img {
   margin: 0 3px;
   cursor: pointer;
 }
-.content .member > ul:nth-child(1) > li:hover {
+.content_gs .member > ul:nth-child(1) > li:hover {
   background: #387BEA;
   color: #fff;
 }
-.content .member > ul:nth-child(1) .alid {
+.content_gs .member > ul:nth-child(1) .alid {
   background: #387BEA;
   color: #fff;
 }
-.content .member .member_carousel {
+.content_gs .member .member_carousel {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-.content .member .member_carousel .show {
-  display: block;
+.content_gs .member .member_carousel .show {
+  display: block !important;
 }
-.content .member .member_carousel > div {
+.content_gs .member .member_carousel #gsjj {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 70px;
+}
+.content_gs .member .member_carousel #gsjj p:nth-child(1) {
+  font-size: 14px;
+  line-height: 32px;
+  color: #808080;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.content_gs .member .member_carousel #gsjj div {
+  width: 100%;
+  height: 400px;
+}
+.content_gs .member .member_carousel > div {
+  display: none !important;
+}
+.content_gs .member .member_carousel #cstd {
   width: 100%;
   height: auto;
   overflow: hidden;
-  display: none;
 }
-.content .member .member_carousel > div .memberList {
+.content_gs .member .member_carousel #cstd .memberList {
   width: 100%;
   height: auto;
   margin: 30px 0;
   display: flex;
   justify-content: space-around;
 }
-.content .member .member_carousel > div .memberList .menList {
+.content_gs .member .member_carousel #cstd .memberList .menList {
   width: 220px;
   height: 380px;
   border-bottom: 10px solid #D5D5D5;
   background: #fff;
   cursor: pointer;
 }
-.content .member .member_carousel > div .memberList .menList:hover {
+.content_gs .member .member_carousel #cstd .memberList .menList:hover {
   border-bottom: 10px solid #387BEA;
 }
-.content .member .member_carousel > div .memberList .menList .name {
+.content_gs .member .member_carousel #cstd .memberList .menList .name {
   width: 84%;
   height: 56px;
   line-height: 56px;
@@ -162,31 +181,31 @@ img {
   font-size: 18px;
   color: #656565;
 }
-.content .member .member_carousel > div .memberList .menList ul {
+.content_gs .member .member_carousel #cstd .memberList .menList ul {
   width: 72%;
   height: auto;
   margin: 18px auto 0;
 }
-.content .member .member_carousel > div .memberList .menList ul li {
+.content_gs .member .member_carousel #cstd .memberList .menList ul li {
   font-size: 14px;
   line-height: 24px;
   color: #656565;
 }
-.content .member .member_carousel > div .memberList .menList .head {
+.content_gs .member .member_carousel #cstd .memberList .menList .head {
   width: 100%;
   height: 200px;
   background-size: 100% 100%;
 }
-.content .member .member_carousel > div .memberList .menList .head_one {
+.content_gs .member .member_carousel #cstd .memberList .menList .head_one {
   background: url(../img/index/member01.jpg) no-repeat;
 }
-.content .member .member_carousel > div .memberList .menList .head_two {
+.content_gs .member .member_carousel #cstd .memberList .menList .head_two {
   background: url(../img/index/member02.jpg) no-repeat;
 }
-.content .member .member_carousel > div .memberList .menList .head_three {
+.content_gs .member .member_carousel #cstd .memberList .menList .head_three {
   background: url(../img/index/member03.jpg) no-repeat;
 }
-.content .member .member_carousel .paging {
+.content_gs .member .paging {
   width: 316px;
   height: 34px;
   border: 1px solid #E5E5E5;
@@ -194,7 +213,7 @@ img {
   margin: 0 auto 20px;
   display: flex;
 }
-.content .member .member_carousel .paging a {
+.content_gs .member .paging a {
   flex: 1;
   height: 34px;
   border-right: 1px solid #E5E5E5;
@@ -202,10 +221,10 @@ img {
   line-height: 34px;
   color: #909090;
 }
-.content .member .member_carousel .paging a:nth-child(4) {
+.content_gs .member .paging a:nth-child(4) {
   border: none;
 }
-.content .member .member_carousel .paging a:hover {
+.content_gs .member .paging a:hover {
   background: #387BEA;
   color: #fff;
 }

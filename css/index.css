@@ -134,7 +134,7 @@ banner .header_cont .piece_cont a:hover {
   margin-top: 15px;
 }
 .openclass .openclass_video > ul:nth-child(1) {
-  width: 400px;
+  width: 700px;
   height: auto;
   overflow: hidden;
   margin: 15px auto;
@@ -188,14 +188,14 @@ banner .header_cont .piece_cont a:hover {
   width: 100%;
   height: 100%;
 }
-.openclass .openclass_video .course_video > ul > li .video_img > a {
+.openclass .openclass_video .course_video > ul > li .video_img > i:nth-child(2) {
   position: absolute;
   left: 50%;
   top: 50%;
   display: block;
   transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   background: url(../img/index/bofang.png) no-repeat;
   background-size: 100% 100%;
 }
@@ -228,6 +228,10 @@ banner .header_cont .piece_cont a:hover {
 .openclass .openclass_video .course_video > ul > li .lecturer > p:nth-child(2) > span:nth-child(2) {
   float: right;
 }
+.openclass .openclass_video .course_video > ul > li .lecturer > p:nth-child(2) > span:nth-child(2) i {
+  font-size: 18px;
+  color: red;
+}
 .openclass .openclass_video .course_video > ul > li .play {
   width: 88px;
   height: 28px;
@@ -235,13 +239,21 @@ banner .header_cont .piece_cont a:hover {
   display: block;
   line-height: 24px;
   text-align: center;
-  margin: 16px auto 0;
+  margin: 16px 10px 0;
+  float: left;
   font-size: 14px;
   color: #959595;
 }
 .openclass .openclass_video .course_video > ul > li .play:hover {
   border: 1px solid #6D9EF0;
   color: #6D9EF0;
+}
+.openclass .openclass_video .course_video > ul > li .time {
+  font-size: 14px;
+  float: right;
+  margin: 20px 10px 0;
+  color: #959595;
+  line-height: 20px;
 }
 .summercamp {
   width: 100%;
@@ -294,8 +306,14 @@ banner .header_cont .piece_cont a:hover {
   left: 0;
   bottom: 0;
 }
-.summercamp .content .left_img .bottom_text a {
+.summercamp .content .left_img .bottom_text a:nth-child(1) {
   font-size: 16px;
+  line-height: 32px;
+  display: block;
+  color: #fff;
+}
+.summercamp .content .left_img .bottom_text a:nth-child(2) {
+  font-size: 14px;
   line-height: 28px;
   color: #fff;
 }

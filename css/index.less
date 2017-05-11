@@ -72,7 +72,7 @@ banner{
         height: auto;
         margin-top: 15px;
         >ul:nth-child(1){
-            width: 400px;
+            width: 700px;
             height: auto;
             overflow: hidden;
             margin: 15px auto;
@@ -126,30 +126,18 @@ banner{
                             width: 100%;
                             height: 100%;
                         }
-                        >a{
+                        >i:nth-child(2){
                            position: absolute;
                            left: 50%;
                            top: 50%;
                            display: block;
                            transform: translate(-50%,-50%); 
-                           width: 40px;
-                           height: 40px;
+                           width: 50px;
+                           height: 50px;
                            background: url(../img/index/bofang.png) no-repeat;
                            background-size: 100% 100%;
                         }
                     }
-//                  .video_img_one{
-//                      background: url(../img/index/video01.jpg) no-repeat;
-//                  }
-//                  .video_img_two{
-//                      background: url(../img/index/video02.jpg) no-repeat;
-//                  }
-//                  .video_img_three{
-//                      background: url(../img/index/video03.jpg) no-repeat;
-//                  }
-//                  .video_img_four{
-//                      background: url(../img/index/video04.jpg) no-repeat;
-//                  }
                     .lecturer{
                         width: 232px;
                         height: 66px;
@@ -176,6 +164,10 @@ banner{
                             }
                             >span:nth-child(2){
                                 float: right;
+                                i{
+                                    font-size: 18px;
+                                    color: red;
+                                }
                             }
                         }
                     }
@@ -186,13 +178,21 @@ banner{
                         display: block;
                         line-height: 24px;
                         text-align: center;
-                        margin: 16px auto 0;
+                        margin: 16px 10px 0;
+                        float: left;
                         font-size: 14px;
                         color: #959595;
                         &:hover{
                             border: 1px solid #6D9EF0;
                             color: #6D9EF0;
                         }
+                    }
+                    .time{
+                        font-size: 14px;
+                        float: right;
+                        margin: 20px 10px 0;
+                         color: #959595;
+                         line-height: 20px;
                     }
                 }
             }
@@ -246,8 +246,14 @@ banner{
                 position: absolute;
                 left: 0;
                 bottom: 0;
-                a{
+                a:nth-child(1){
                     font-size: 16px;
+                    line-height: 32px;
+                    display: block;
+                    color: #fff;
+                }
+                a:nth-child(2){
+                    font-size: 14px;
                     line-height: 28px;
                     color: #fff;
                     

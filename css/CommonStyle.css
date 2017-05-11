@@ -119,6 +119,9 @@ header .top_cont nav ul li {
   margin: 4px 0;
   position: relative;
 }
+header .top_cont nav ul li:hover {
+  background: #387BEA;
+}
 header .top_cont nav ul li .drop_down {
   width: 100%;
   height: auto;
@@ -144,9 +147,6 @@ header .top_cont nav ul li a {
   display: block;
   width: 100%;
   line-height: 50px;
-}
-header .top_cont nav ul li a:hover {
-  background: #387BEA;
 }
 footer {
   width: 100%;

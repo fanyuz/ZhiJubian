@@ -6,7 +6,7 @@
     background: url(../img/originator/banner.jpg) no-repeat;
     background-size: 100% 100%;
 }
-.content{
+.content_gs{
     width: 1200px;
     height: auto;
     overflow: hidden;
@@ -66,13 +66,32 @@
             height: auto;
             overflow: hidden;
             .show{
-                display: block;
+                display: block !important;
+            }
+            #gsjj{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                margin-bottom: 70px;
+                p:nth-child(1){
+                    font-size: 14px;
+                    line-height: 32px;
+                    color: #808080;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                div{
+                    width: 100%;
+                    height: 400px;
+                }
             }
             >div{
+                display: none !important;
+            }
+            #cstd{
                 width: 100%;
                 height: auto;
                 overflow: hidden;
-                display: none;
                 .memberList{
                 width: 100%;
                 height: auto;
@@ -130,29 +149,30 @@
             }
         }
         
+        
+        }
         .paging{
-                width: 316px;
+            width: 316px;
+            height: 34px;
+            border: 1px solid #E5E5E5;
+            border-radius: 4px;
+            margin: 0 auto 20px;
+            display: flex;
+            a{
+                flex: 1;
                 height: 34px;
-                border: 1px solid #E5E5E5;
-                border-radius: 4px;
-                margin: 0 auto 20px;
-                display: flex;
-                a{
-                    flex: 1;
-                    height: 34px;
-                    border-right: 1px solid #E5E5E5;
-                    text-align: center;
-                    line-height: 34px;
-                    color: #909090;
-                    &:nth-child(4){
-                        border: none;
-                    }
-                    &:hover{
-                        background: #387BEA;
-                        color:#fff;
-                    }
-                  
+                border-right: 1px solid #E5E5E5;
+                text-align: center;
+                line-height: 34px;
+                color: #909090;
+                &:nth-child(4){
+                    border: none;
                 }
+                &:hover{
+                    background: #387BEA;
+                    color:#fff;
+                }
+              
             }
         }
     }
