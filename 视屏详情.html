@@ -9,24 +9,25 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<script src="js/jquery-1.6.2.min.js"></script>
 		<script src="js/index.js"></script>
+		<script src="js/public.js"></script>
 	</head>
 	<body>
 		<!--header-->
 		<header>
 			<div class="top_cont">
-				<a href="" class="logo">
+				<a href="index.html" class="logo">
 					<img src="img/index/login_logo.png" alt="" />
 				</a>
 				<nav>
 					<div class="login">
-						<a href="">登录</a>
-						<a href="">注册</a>
+						<a href="登录.html">登录</a>
+						<a href="登录.html">注册</a>
 					</div>
 					<ul id="nav">
 						<li><a href="index.html">首页</a></li>
-						<li><a href="">榜样公开课</a></li>
-						<li><a href="">智慧夏令营</a></li>
-						<li><a href="">榜样教育</a>
+						<li><a href="榜样公开课.html">榜样公开课</a></li>
+						<li><a href="智慧夏令营.html">智慧夏令营</a></li>
+						<li><a href="榜样公开课.html">榜样教育</a>
 							<div class="drop_down">
 								<a href="">网络对话</a>
 								<a href="">征文活动</a>
@@ -37,9 +38,9 @@
 							</div>
 						</li>
 						<li><a href="">公益活动</a></li>
-						<li><a href="">新闻中心</a></li>
-						<li><a href="">公司介绍</a></li>
-						<li><a href="">联系我们</a></li>
+						<li><a href="新闻中心.html">新闻中心</a></li>
+						<li><a href="创始团队.html">公司介绍</a></li>
+						<li><a href="加入我们.html">联系我们</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -64,7 +65,7 @@
 						<h6>课程概要：</h6>
 						<p>4月16日，北京智聚变榜样教育“传递榜样力量·助力学子成长”大型公益活动走进洪雅中学，10位来自清华大学、北京大学、中国人民大学、北京师范大学等。
 </p>
-						<a href="">立即购买</a>
+						<p id="purchase">立即购买</p>
 					</div>
 				</div>
 				<div class="bottom">
@@ -114,7 +115,54 @@
 				</div>
 			</div>
 		</div>
-		
+		<!--弹出层-->
+		<div id="purchase_box">
+			<div class="purchase_cont">
+				<div class="purchase_header">
+					<p>购买课程</p>
+					<i id="shut">&Chi;</i>
+				</div>
+				<div class="purchase_main" id="purchase">
+					<div class="top">
+						<div class="left_img">
+							<img src="img/grzx_02.jpg"/>
+						</div>
+						<div class="right">
+							<p>大学生活套餐课程</p>
+							<p>视屏数量：15</p>
+							<p>套餐价格：<span>￥599</span></p>
+						</div>
+					</div>
+					<textarea placeholder="输入优惠码："></textarea>
+					<button id="nextstep">下一步</button>
+				</div>
+				<div class="payment" id="payment">
+					<p>选择支付方式：</p>
+					<div class="payment_fs">
+						<ul id="table">
+							<li class="alid">
+								<img src="img/news/weixin.png"/>
+								微信支付
+							</li>
+							<li>
+								<img src="img/news/zhifubao.png"/>
+								微信支付
+							</li>
+						</ul>
+						<div class="erweima" id="course_video">
+							<div class="show">
+								<img src="img/news/erweima_w.gif"/>
+								<p>微信扫一扫支付</p>
+							</div>
+							<div>
+								<img src="img/news/erweima_w.gif"/>
+								<p>支付宝支付</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--footer-->
 		<footer>
 			<div class="footer">
