@@ -61,40 +61,41 @@ a {
 img {
   display: inline-block;
 }
+/*代理商查询*/
 body {
   background: #FAFAFA;
 }
-.find {
+.find_dlscx {
   width: 1200px;
   height: auto;
   overflow: hidden;
   margin: 20px auto;
-}
-.find .indexing {
+} /*代理商查询 end*/
+.find_dlscx .indexing {
   width: 100%;
   height: 54px;
   border-bottom: 1px solid #F2F2F2;
   padding-top: 18px;
 }
-.find .indexing img {
+.find_dlscx .indexing img {
   vertical-align: middle;
   width: 15px;
   height: 15px;
   margin-right: 8px;
 }
-.find .indexing p {
+.find_dlscx .indexing p {
   height: 16px;
   font-size: 16px;
   color: #ABABAB;
 }
-.find .content {
+.find_dlscx .content {
   width: 100%;
   height: 500px;
   margin: 20px 0;
   border: 1px solid #D8D8D8;
   background: #fff;
 }
-.find .content .input {
+.find_dlscx .content .input {
   width: 600px;
   height: 100px;
   border: 1px solid #D8D8D8;
@@ -105,10 +106,10 @@ body {
   display: block;
   color: #222222;
 }
-.find .content .input::-webkit-input-placeholder {
+.find_dlscx .content .input::-webkit-input-placeholder {
   color: #CCCCCC;
 }
-.find .content button {
+.find_dlscx .content button {
   width: 100px;
   height: 40px;
   border: none;

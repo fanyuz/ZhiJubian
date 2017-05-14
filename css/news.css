@@ -61,95 +61,95 @@ a {
 img {
   display: inline-block;
 }
-.main {
+.main_xwxq {
   width: 1200px;
   height: auto;
   overflow: hidden;
   margin: 0 auto;
 }
-.main .indexing {
+.main_xwxq .indexing {
   width: 100%;
   height: 54px;
   border-bottom: 1px solid #F2F2F2;
   padding-top: 18px;
 }
-.main .indexing img {
+.main_xwxq .indexing img {
   vertical-align: middle;
   width: 15px;
   height: 15px;
   margin-right: 8px;
 }
-.main .indexing p {
+.main_xwxq .indexing p {
   height: 16px;
   font-size: 16px;
   color: #ABABAB;
 }
-.main .content {
+.main_xwxq .content {
   width: 100%;
   height: auto;
   overflow: hidden;
   margin-top: 20px;
 }
-.main .content .leftbar {
+.main_xwxq .content .leftbar {
   width: 840px;
   height: auto;
   overflow: hidden;
   float: left;
 }
-.main .content .leftbar .top_title {
+.main_xwxq .content .leftbar .top_title {
   width: 100%;
   height: 90px;
   border-bottom: 1px solid #F2F2F2;
 }
-.main .content .leftbar .top_title h2 {
+.main_xwxq .content .leftbar .top_title h2 {
   font-size: 20px;
   line-height: 40px;
   margin-top: 15px;
 }
-.main .content .leftbar .top_title span {
+.main_xwxq .content .leftbar .top_title span {
   font-size: 14px;
   display: inline-block;
   height: 14px;
   margin-right: 40px;
   color: #979797;
 }
-.main .content .leftbar .top_title span img {
+.main_xwxq .content .leftbar .top_title span img {
   width: 14px;
   height: 14px;
   vertical-align: middle;
   margin: 0 4px;
 }
-.main .content .leftbar .content_text {
+.main_xwxq .content .leftbar .content_text {
   width: 100%;
   height: auto;
   overflow: hidden;
   padding: 20px;
 }
-.main .content .leftbar .content_text p {
+.main_xwxq .content .leftbar .content_text p {
   font-size: 14px;
   line-height: 28px;
   color: #868686;
   text-indent: 28px;
 }
-.main .content .leftbar .content_text .img {
+.main_xwxq .content .leftbar .content_text .img {
   width: 650px;
   height: 400px;
   margin: 20px auto;
   background: url(../img/news/cont.gif) no-repeat;
   background-size: 100% 100%;
 }
-.main .content .leftbar .content_text .back {
+.main_xwxq .content .leftbar .content_text .back {
   float: left;
   margin-top: 40px;
   line-height: 28px;
 }
-.main .content .leftbar .content_text .back img {
+.main_xwxq .content .leftbar .content_text .back img {
   width: 40px;
   height: 28px;
   margin: 0 4px;
   vertical-align: middle;
 }
-.main .content .leftbar .content_text .bottom {
+.main_xwxq .content .leftbar .content_text .bottom {
   width: 100%;
   height: auto;
   border-top: 1px solid #F3F3F3;
@@ -158,24 +158,24 @@ img {
   margin-top: 15px;
   float: left;
 }
-.main .content .leftbar .content_text .bottom a {
+.main_xwxq .content .leftbar .content_text .bottom a {
   font-size: 14px;
   line-height: 74px;
   color: #6B6B6B;
 }
-.main .content .leftbar .content_text .bottom a:nth-child(1) {
+.main_xwxq .content .leftbar .content_text .bottom a:nth-child(1) {
   float: left;
 }
-.main .content .leftbar .content_text .bottom a:nth-child(2) {
+.main_xwxq .content .leftbar .content_text .bottom a:nth-child(2) {
   width: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.main .content .leftbar .content_text .bottom a:nth-child(3) {
+.main_xwxq .content .leftbar .content_text .bottom a:nth-child(3) {
   float: right;
 }
-.main .content .leftbar .content_text .apply {
+.main_xwxq .content .leftbar .content_text .apply {
   width: 150px;
   height: 38px;
   float: right;
@@ -185,7 +185,7 @@ img {
   line-height: 38px;
   color: #FFFFFF;
 }
-.main .content .rightbar {
+.main_xwxq .content .rightbar {
   width: 310px;
   height: auto;
   overflow: hidden;
@@ -193,31 +193,31 @@ img {
   padding: 16px;
   background: #F5F6FA;
 }
-.main .content .rightbar h3 {
+.main_xwxq .content .rightbar h3 {
   font-size: 18px;
   line-height: 36px;
   color: #3276E5;
   border-bottom: 1px solid #E2E4E3;
 }
-.main .content .rightbar > ul {
+.main_xwxq .content .rightbar > ul {
   width: 100%;
   height: auto;
 }
-.main .content .rightbar > ul li {
+.main_xwxq .content .rightbar > ul li {
   padding: 10px 0;
   border-bottom: 1px solid #E2E4E3;
 }
-.main .content .rightbar > ul li a:nth-child(1) {
+.main_xwxq .content .rightbar > ul li a:nth-child(1) {
   font-size: 16px;
   color: #3B3D3A;
   line-height: 20px;
 }
-.main .content .rightbar > ul li p:nth-child(2) {
+.main_xwxq .content .rightbar > ul li p:nth-child(2) {
   font-size: 14px;
   color: #747575;
   line-height: 20px;
 }
-.main .content .rightbar > ul li span {
+.main_xwxq .content .rightbar > ul li span {
   font-size: 12px;
   color: #AAACAB;
   line-height: 30px;
